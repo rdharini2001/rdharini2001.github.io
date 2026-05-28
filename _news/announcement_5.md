@@ -1,0 +1,8 @@
+---
+layout: post
+date: 2025-05-01 12:00:00-0400
+inline: true
+related_posts: false
+---
+
+Started my Ph.D. in ECE at Georgia Tech in the Madabhushi Lab. Excited to work on medical AI and generative modeling!
