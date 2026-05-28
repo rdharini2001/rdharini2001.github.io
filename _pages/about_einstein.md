@@ -31,5 +31,3 @@ I am a Ph.D. student in [Electrical & Computer Engineering](https://ece.gatech.e
 My research asks how images, signals, language, and geometry can be mapped into latent variables that are predictive, calibrated, mechanistically interpretable, and stable under distribution shift. The common thread across my work is **state modeling**: learning compact representations of biological and physical systems from partial, noisy observations. Concretely, this spans generative geometry and flow-based models, physics-consistent vascular world models, zero-shot quality representation learning for robust vision, oculomics for systemic-disease risk, and LLM reasoning in medicine.
 
 Previously, I completed my M.S. in ECE at Georgia Tech, and my B.E. in Electronics & Communication Engineering at Ramaiah Institute of Technology (Silver Medal, Rank 2/156). I have also worked on embodied perception, SLAM, and edge AI for robotics at the Indian Institute of Science.
-
-Please reach out if you'd like to chat about medical AI, generative modeling, or representation learning — you can find my [CV here](/cv/) and my [publications here](/publications/).
