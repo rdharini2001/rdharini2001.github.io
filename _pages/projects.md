@@ -6,7 +6,7 @@ description: Selected research and course projects spanning medical AI, generati
 nav: true
 nav_order: 3
 display_categories: [research, course-projects]
-horizontal: false
+horizontal: true
 ---
 
 <!-- pages/projects.md -->
