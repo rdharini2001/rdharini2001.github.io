@@ -5,7 +5,7 @@ description: Learning image-quality representations from frozen vision-language 
 img: assets/img/EYQC.jpg
 importance: 1
 category: research
-related_publications: true
+related_publications: false
 ---
 
 **EyeQC** is a zero-shot method for learning image-quality representations from frozen vision-language embeddings. The framework models acquisition artifacts as latent quality directions induced by semantic prompt contrasts, enabling continuous, multi-axis scoring of blur, illumination shift, contrast loss, occlusion, field-of-view restriction, and other artifacts — without supervised quality labels.
