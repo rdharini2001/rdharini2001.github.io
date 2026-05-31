@@ -5,11 +5,7 @@ description: Multimodal sensing and interpretable ML for mild cognitive impairme
 img: assets/img/6.jpg
 importance: 6
 category: research
-related_publications: true
+authors: "<strong>Dharini Raghavan</strong>, Hyeokhyen Kwon"
+venue: "AMIA 2025 (Podium); PLOS Digital Health (under review)"
+abstract: "Wearable sensing promises continuous, ecological measurement of cognitive function — but most digital-biomarker pipelines collapse rich longitudinal observation into a single classifier output, and most evaluations under-report subgroup behavior. We formulate gait, balance, and behavioral signals from IMU + ambient sensors as noisy longitudinal observations of an unobserved cognitive and functional state, and ask which features remain stable across heterogeneous patient groups. The interpretable feature set recovers known MCI gait and balance biomarkers, but the more interesting finding is in the residuals: demographic covariates and feature distributions explain a large share of model error, suggesting that current wearable AD models conflate cognitive decline with population structure."
 ---
-
-Multimodal sensing and interpretable ML for **mild cognitive impairment** using wearable IMU and ambient sensing. The work formulates gait, balance, and behavior as noisy longitudinal observations of cognitive and functional state.
-
-*AMIA 2025 Podium; PLOS Digital Health under review.*
-
-I also analyzed how demographic heterogeneity, feature distributions, and clinical covariates shape prediction error in longitudinal sensing models.
