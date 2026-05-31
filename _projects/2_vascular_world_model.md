@@ -2,7 +2,7 @@
 layout: page
 title: Physics-Consistent Vascular World Models
 description: Generative agents that learn plausible, physics-consistent vascular states
-img: assets/img/2.jpg
+img: assets/img/vasc_world.png
 importance: 2
 category: research
 authors: "<strong>Dharini Raghavan</strong>, Anant Madabhushi"

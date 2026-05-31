@@ -2,7 +2,7 @@
 layout: page
 title: Zero-shot Quality Representation Learning (EyeQC)
 description: Learning image-quality representations from frozen vision-language embeddings
-img: assets/img/1.jpg
+img: assets/img/eyqc.png
 importance: 1
 category: research
 authors: "<strong>Dharini Raghavan</strong> et al."
