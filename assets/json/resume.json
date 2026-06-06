@@ -6,7 +6,7 @@
     "email": "draghavan7@gatech.edu",
     "phone": "+1 (404) 729-7295",
     "url": "https://rdharini2001.github.io/",
-    "summary": "I develop representation-learning methods for biomedical imaging, generative modeling, and embodied perception. My research asks how images, signals, language, and geometry can be mapped into latent variables that are predictive, calibrated, mechanistically interpretable, and stable under distribution shift. The common thread across my work is state modeling — learning compact representations of biological or physical systems from partial, noisy observations.",
+    "summary": "I develop representation-learning methods for biomedical imaging, generative modeling, and embodied perception. My research asks how images, signals, language, and geometry can be mapped into latent variables that are predictive, calibrated, mechanistically interpretable, and stable under distribution shift. The common thread across my work is state modeling: learning compact representations of biological or physical systems from partial, noisy observations.",
     "location": {
       "city": "Atlanta",
       "region": "GA",
@@ -30,6 +30,19 @@
       }
     ]
   },
+  "researchProfile": {
+    "headline": "Representation learning, generative modeling, biomedical AI, and embodied perception",
+    "summary": "My research develops AI systems that infer biological or physical state from partial, noisy, high-dimensional observations. I work across medical foundation models, oculomics, computational pathology, vision-language quality representation learning, flow-based generative geometry, vascular and cardiac world models, clinical survival modeling, uncertainty and calibration, and 3D perception for robotics.",
+    "coreThemes": [
+      "Representation learning from biomedical images, signals, language, and geometry",
+      "Generative modeling, flow-based probability transport, and topology-preserving synthesis",
+      "Patient-state and disease-state modeling from partial observations",
+      "Medical foundation models for retinal imaging, OCT/OCTA, pathology, CT, and cine MRI",
+      "Vision-language models for zero-shot quality representation learning",
+      "Uncertainty, calibration, external validation, and robustness under distribution shift",
+      "Embodied perception, zero-shot localization, SLAM, differentiable 3D scene representation, and edge AI"
+    ]
+  },
   "education": [
     {
       "institution": "Georgia Institute of Technology",
@@ -39,7 +52,7 @@
       "studyType": "Ph.D.",
       "startDate": "2025-05-01",
       "endDate": "Present",
-      "summary": "Advisor: Prof. Anant Madabhushi. Focus on medical imaging, generative modeling, clinical AI, and computer vision."
+      "summary": "Advisor: Prof. Anant Madabhushi. Focus on representation learning, medical foundation models, generative modeling, clinical AI, and computer vision."
     },
     {
       "institution": "Georgia Institute of Technology",
@@ -59,7 +72,103 @@
       "startDate": "2019-08-01",
       "endDate": "2023-05-01",
       "score": "9.76 / 10",
-      "summary": "Silver Medal; Rank 2/156."
+      "summary": "Graduated with Silver Medal; Rank 2/156."
+    }
+  ],
+  "researchPrograms": [
+    {
+      "name": "Foundation AI for reasoning, reliability, and generative state modeling",
+      "summary": "Developing methods that study how modern AI systems reason, represent uncertainty, and model evolving biological state.",
+      "highlights": [
+        "LLM diagnostic reasoning as constrained inference under mutually exclusive disease hypotheses, causal exclusion, noisy observations, and calibration stress tests.",
+        "Flow-based generative geometry through the analysis of velocity fields, interpolants, probability-transport paths, distributional asymmetries, curvature, and likelihood calibration.",
+        "Physics-consistent vascular world models that simulate plausible organ-specific vascular states conditioned on tissue context, disease progression, and intervention."
+      ],
+      "tags": [
+        "ICLR'26 Workshop",
+        "Stanford AIMI Symposium",
+        "NeurIPS'26 under review"
+      ]
+    },
+    {
+      "name": "Zero-shot quality representation learning for robust vision",
+      "summary": "Developing EyeQC, a zero-shot method for learning image-quality representations from frozen vision-language embeddings.",
+      "highlights": [
+        "Models acquisition quality as latent directions induced by semantic prompt contrasts.",
+        "Enables continuous multi-axis scoring of focus, illumination, contrast, field of view, occlusion, and artifacts without supervised quality labels.",
+        "Supports failure-mode decomposition, retrieval, batch-shift analysis, and quality-aware downstream learning.",
+        "Extended to curriculum-based visual acuity prediction from fundus images, using image quality as both a reliability signal and an ordering prior for robust regression."
+      ],
+      "tags": [
+        "ARVO'26 Hot Topic"
+      ]
+    },
+    {
+      "name": "Oculomics for systemic risk modeling",
+      "summary": "Developing statistical-learning and representation-learning frameworks that use ocular structure as a non-invasive projection of systemic disease state.",
+      "highlights": [
+        "OCTA capillary remodeling biomarkers for coronary microvascular dysfunction in women with INOCA.",
+        "CORI: retinal cardiovascular risk index for cardiovascular risk prediction in cancer patients.",
+        "Retinal vascular and perivascular geometry for cardio-renal-metabolic risk.",
+        "Deep fundus representations for pan-cancer risk modeling and cardiovascular risk in cancer patients.",
+        "3D OCT-derived morphology for disease phenotyping and treatment-response modeling."
+      ],
+      "tags": [
+        "AJPC'26",
+        "ACC'26"
+      ]
+    },
+    {
+      "name": "Topology-preserving generative modeling for cross-modal imaging",
+      "summary": "Developed frequency-disentangled generative modeling for unpaired fundus-to-OCTA synthesis.",
+      "highlights": [
+        "Factorizes image translation into low-frequency appearance transport and high-frequency anatomical topology preservation.",
+        "Constrains the generative map to preserve vessel geometry, connectivity, and microvascular structure while adapting modality-specific image statistics.",
+        "Reframes medical image generation as structure-preserving distribution alignment under weak supervision."
+      ]
+    },
+    {
+      "name": "Spatial risk-field learning in computational pathology",
+      "summary": "Developing MarginCall, a multitask whole-slide learning framework for breast surgical margin assessment.",
+      "highlights": [
+        "Treats residual disease risk as structured prediction over tissue geometry rather than a single endpoint label.",
+        "Learns coupled tumor-probability fields, margin-distance representations, morphology embeddings, and uncertainty maps.",
+        "Uses intermediate network states as interpretable measurements for failure analysis, power analysis, and spatial phenotype discovery."
+      ],
+      "tags": [
+        "Collaboration with ARPA-H"
+      ]
+    },
+    {
+      "name": "Spatial pathology biomarkers in multiple myeloma",
+      "summary": "Investigating plasma-cell and immune-cell organization as a structured tissue system in bone marrow biopsies.",
+      "highlights": [
+        "Uses deep learning and spatial tissue modeling to quantify neighborhood geometry, local composition, immune-plasma interaction patterns, and architecture-level phenotypes.",
+        "Studies sex-specific survival differences in multiple myeloma using spatial pathology biomarkers."
+      ],
+      "tags": [
+        "AACR'26"
+      ]
+    },
+    {
+      "name": "Generative state-space modeling of 4D cardiac dynamics",
+      "summary": "Exploring foundation-model methods for cine cardiac MRI that learn compact latent trajectories of cardiac motion, morphology, and remodeling from spatiotemporal image sequences.",
+      "highlights": [
+        "Frames cardiac video as a generative state-space problem.",
+        "Combines representation learning, temporal attention, neural dynamics, geometry-aware embeddings, and counterfactual trajectory modeling to infer hidden physiological state."
+      ]
+    },
+    {
+      "name": "Generalist CT foundation models",
+      "summary": "Developed target-adaptive CT diagnosis systems for the CVPR 2026 Foundation Models for General CT Image Diagnosis Challenge.",
+      "highlights": [
+        "Frames general CT diagnosis as representation selection under heterogeneous evidence regimes.",
+        "Studies aggregation operators, calibration strategies, and inductive biases for localized organ findings, diffuse systemic patterns, and chest disease.",
+        "Ranked 3rd in the validation phase."
+      ],
+      "tags": [
+        "CVPR'26 Challenge"
+      ]
     }
   ],
   "work": [
@@ -69,15 +178,16 @@
       "location": "Atlanta, GA",
       "startDate": "2025-05-01",
       "endDate": "Present",
-      "summary": "Advisor: Prof. Anant Madabhushi. Representation learning for biomedical imaging, generative geometry, vascular world models, oculomics, and LLM reasoning in medicine.",
+      "summary": "Advisor: Prof. Anant Madabhushi. Conducting research at the intersection of medical foundation models, oculomics, computational pathology, generative modeling, clinical survival learning, and multimodal patient-state modeling.",
       "highlights": [
-        "LLM Reasoning in Medicine — benchmarking diagnostic reasoning in LLMs (ICLR'26 Workshop; Stanford AIMI Symposium)",
-        "Flow-based Generative Geometry — analyzing transport paths and likelihood calibration (NeurIPS'26 under review)",
-        "Physics-Consistent Vascular World Models — generative agents for vascular state modeling",
-        "Zero-shot Quality Representation Learning (EyeQC) — multi-axis quality scoring from frozen VLMs (ARVO'26 Hot Topic)",
-        "Oculomics for Systemic Risk Modeling — OCTA, fundus, and OCT representations for cardiovascular, oncologic, and metabolic risk (AJPC'26; ACC'26)",
-        "Frequency-Disentangled Generative Modeling — topology-preserving cross-modal synthesis (fundus-to-OCTA)",
-        "Spatial Risk-Field Learning — multitask deep learning for surgical margin assessment in breast cancer (ARPA-H collaboration)"
+        "Leading and contributing to projects on retinal biomarkers of systemic disease, pathology spatial risk fields, vision-language quality geometry, vascular and cardiac world models, and generalist medical imaging foundation models.",
+        "LLM reasoning in medicine: benchmarking whether large language models perform diagnostic reasoning as structured inference or collapse toward prevalence priors under constrained clinical cases. [ICLR'26 Workshop; Stanford AIMI Symposium]",
+        "Flow-based generative geometry: analyzing velocity fields, interpolants, transport paths, curvature, density concentration, likelihood calibration, and representation asymmetries.",
+        "Physics-consistent vascular world models: generative agents for plausible vascular state modeling under tissue context, disease, and intervention.",
+        "EyeQC: zero-shot quality representation learning from frozen VLM embeddings for multi-axis quality scoring, failure-mode decomposition, retrieval, batch-shift analysis, and quality-aware downstream learning. [ARVO'26 Hot Topic]",
+        "Oculomics for systemic risk modeling: retinal imaging biomarkers for CMD, cardio-oncology risk, cardio-renal-metabolic risk, pan-cancer risk, and 3D OCT morphology. [AJPC'26; ACC'26]",
+        "Frequency-disentangled generative modeling: topology-preserving unpaired fundus-to-OCTA synthesis.",
+        "Spatial risk-field learning: multitask deep learning for breast surgical margin assessment through tumor-probability fields, margin-distance maps, morphology embeddings, and uncertainty maps. [ARPA-H collaboration]"
       ]
     },
     {
@@ -86,10 +196,12 @@
       "location": "Atlanta, GA",
       "startDate": "2024-08-01",
       "endDate": "2025-04-01",
-      "summary": "Advisor: Prof. Hyeokhyen Kwon. Wearable AI for cognitive health; robustness in clinical sensing.",
+      "summary": "Advisor: Prof. Hyeokhyen Kwon. Wearable AI for cognitive health and robustness in clinical sensing.",
       "highlights": [
-        "Multimodal sensing and interpretable ML for mild cognitive impairment (AMIA'25 Podium; PLOS Digital Health under review)",
-        "Analyzed how demographic heterogeneity and clinical covariates shape prediction error in longitudinal sensing models"
+        "Developed multimodal sensing and interpretable machine-learning models for mild cognitive impairment using wearable IMU and ambient sensing.",
+        "Formulated gait, balance, and behavior as noisy longitudinal observations of cognitive and functional state.",
+        "Emphasized clinically interpretable digital biomarkers and subgroup robustness. [AMIA'25 Podium Presentation; PLOS Digital Health under review]",
+        "Analyzed how demographic heterogeneity, feature distributions, and clinical covariates shape prediction error in longitudinal sensing models."
       ]
     },
     {
@@ -98,10 +210,11 @@
       "location": "Bangalore, India",
       "startDate": "2024-04-01",
       "endDate": "2024-07-01",
-      "summary": "Advisor: Prof. Bharadwaj Amrutur.",
+      "summary": "Advisor: Prof. Bharadwaj Amrutur. Research on foundation-model perception, embodied localization, and differentiable 3D scene representation.",
       "highlights": [
-        "Zero-shot embodied localization combining foundation-model embeddings, keypoint geometry, and spatial consistency constraints — improving RTAB-Map SLAM accuracy by >63% (ACM ICVGIP'25)",
-        "Differentiable 3D scene representation using anisotropic Gaussian primitives, SE(3) optimization, and differentiable rendering"
+        "Developed zero-shot embodied localization methods combining foundation-model visual embeddings, keypoint geometry, and spatial consistency constraints.",
+        "Improved RTAB-Map SLAM accuracy by more than 63% without task-specific fine-tuning. [ACM ICVGIP'24]",
+        "Advanced multi-camera pose refinement using anisotropic Gaussian primitives, SE(3) optimization, and differentiable rendering for infrastructure-assisted robot localization."
       ]
     },
     {
@@ -110,10 +223,12 @@
       "location": "Bangalore, India",
       "startDate": "2023-07-01",
       "endDate": "2024-03-01",
-      "summary": "Advisor: Prof. Bharadwaj Amrutur.",
+      "summary": "Advisor: Prof. Bharadwaj Amrutur. Research on uncertainty-aware multi-robot perception, edge AI, and neural compression.",
       "highlights": [
-        "Uncertainty-aware multi-robot perception with ensemble disagreement, MC dropout, and spatial uncertainty maps",
-        "Neural compression for edge perception — structured pruning, INT8 quantization, distillation on Qualcomm RB5: >3× speedup, <2% accuracy degradation (Qualcomm Developer Symposium)"
+        "Designed fixed-camera localization systems for multiple robots under occlusion, clutter, and sensor noise.",
+        "Used ensemble disagreement, Monte Carlo dropout, and spatial uncertainty maps to quantify pose reliability.",
+        "Applied structured pruning, INT8 quantization, and cross-architecture distillation for real-time 6-DoF pose estimation on Qualcomm RB5 platforms.",
+        "Achieved more than 3x speedup with less than 2% accuracy degradation. [Qualcomm Developer Symposium]"
       ]
     },
     {
@@ -122,22 +237,25 @@
       "location": "Bangalore, India",
       "startDate": "2023-02-01",
       "endDate": "2023-07-01",
-      "summary": "Advisors: Prof. Bharadwaj Amrutur and Dr. Raghu Krishnapuram.",
+      "summary": "Advisors: Prof. Bharadwaj Amrutur and Dr. Raghu Krishnapuram. Research on infrastructure-camera localization and sim-to-real perception for GPS-denied robot navigation.",
       "highlights": [
-        "High-precision visual localization for GPS-denied robot navigation — sub-centimeter positioning for safe human-robot collaboration",
-        "Sim-to-real domain adaptation pipelines with domain randomization — 100K+ annotated images, <5% degradation on real-world deployment"
+        "Developed high-precision visual localization for GPS-denied robot navigation using keypoint correspondences, geometric consistency, and 6-DoF pose estimation.",
+        "Enabled sub-centimeter positioning for safe human-robot collaboration.",
+        "Built synthetic-data generation pipelines with domain randomization over lighting, texture, pose, and occlusion.",
+        "Generated 100K+ annotated images and achieved less than 5% degradation on real-world deployment."
       ]
     },
     {
       "name": "FIST Lab, Indian Institute of Science",
-      "position": "Summer Research Fellow (Indian Academy of Sciences)",
+      "position": "Summer Research Fellow, Indian Academy of Sciences",
       "location": "Bangalore, India",
       "startDate": "2021-07-01",
       "endDate": "2021-09-01",
-      "summary": "Advisor: Dr. Jayaprakash.",
+      "summary": "Advisor: Dr. Jayaprakash. Research on medical image restoration and 3D tumor localization.",
       "highlights": [
-        "Lightweight residual CNNs for non-blind 3D deconvolution of clinical MRI: >2.5 dB PSNR improvement, >10× faster inference than Richardson-Lucy",
-        "Extended restoration framework to photoacoustic tomography for 3D tumor localization"
+        "Designed lightweight residual CNNs for non-blind 3D deconvolution of clinical MRI scans.",
+        "Improved PSNR by more than 2.5 dB over Richardson-Lucy baselines with more than 10x faster inference.",
+        "Extended the restoration framework to photoacoustic tomography for 3D tumor localization."
       ]
     },
     {
@@ -146,102 +264,550 @@
       "location": "Indore, India",
       "startDate": "2021-09-01",
       "endDate": "2021-10-01",
-      "summary": "Advisor: Dr. Neelima Satyam. Ensemble-learning pipelines combining geospatial covariates and GeoTIFF imagery for landslide susceptibility mapping."
+      "summary": "Advisor: Dr. Neelima Satyam. Research on geospatial machine learning for hazard prediction.",
+      "highlights": [
+        "Built ensemble-learning pipelines combining geospatial covariates, geological databases, and GeoTIFF imagery for landslide susceptibility mapping and spatial risk visualization."
+      ]
     }
   ],
   "publications": [
+    {
+      "name": "Deductive Constraint Satisfaction vs. Prevalence Priors: Benchmarking LLM Logic in Clinical Diagnostics",
+      "publisher": "ICLR 2026 Workshop on Logical Reasoning of Large Language Models",
+      "releaseDate": "2026",
+      "summary": "Benchmarking whether LLMs perform diagnostic reasoning as constrained inference or collapse toward prevalence priors; selected for Stanford AIMI Symposium presentation.",
+      "authors": [
+        "Dharini Raghavan"
+      ],
+      "category": "AI / ML Workshop"
+    },
+    {
+      "name": "Target-adaptive representation routing for general CT diagnosis",
+      "publisher": "CVPR 2026 Foundation Models for General CT Image Diagnosis Challenge",
+      "releaseDate": "2026",
+      "summary": "Challenge submission on target-adaptive CT diagnosis; ranked 3rd in the validation phase.",
+      "authors": [
+        "Dharini Raghavan"
+      ],
+      "category": "Challenge"
+    },
+    {
+      "name": "Safe Active Medical Imaging: Theoretical Foundations for Uncertainty-Guided Acquisition under Safety Constraints",
+      "publisher": "CVPR AVA Workshop",
+      "releaseDate": "2025",
+      "url": "https://drive.google.com/file/d/1WW2sjxNxo2ntzGop7huGWEniFzEZEJGD/view",
+      "summary": "Theoretical foundations for uncertainty-guided acquisition under safety constraints.",
+      "authors": [
+        "Dharini Raghavan"
+      ],
+      "category": "AI / ML Workshop"
+    },
+    {
+      "name": "Zero-Splat TeleAssist: A Zero-Shot Pose Estimation Framework for Semantic Teleoperation",
+      "publisher": "ICRA 3rd Workshop on Human-Centric Multilateral Teleoperation",
+      "releaseDate": "2025",
+      "url": "https://drive.google.com/file/d/13nG4ophoSYUpwk3oGt6aYQ14Zu06EGIA/view",
+      "summary": "Zero-shot pose estimation framework for semantic teleoperation.",
+      "authors": [
+        "Srijan Dokania",
+        "Dharini Raghavan"
+      ],
+      "category": "AI / ML Workshop"
+    },
     {
       "name": "Retinal OCTA-Derived Microvascular Remodeling Is Associated with Coronary Microvascular Dysfunction in Women with Ischemia and No Obstructive Coronary Artery Disease: A Pilot Study",
       "publisher": "American Journal of Preventive Cardiology",
       "releaseDate": "2026",
       "url": "https://www.sciencedirect.com/science/article/pii/S2666667726002461",
-      "summary": "Links retinal OCTA-derived microvascular remodeling to coronary microvascular dysfunction in women."
+      "summary": "Links retinal OCTA-derived microvascular remodeling to coronary microvascular dysfunction in women with INOCA.",
+      "authors": [
+        "Dharini Raghavan",
+        "SS Kar",
+        "S Shiromani",
+        "A AlBadri",
+        "N Jain",
+        "PK Mehta",
+        "et al."
+      ],
+      "category": "Journal Article"
     },
     {
-      "name": "Zero-Shot Pose Estimation and Tracking of Autonomous Mobile Robots using Infrastructure Vision Sensors",
+      "name": "Quality-Aware Deep Learning Improves Prediction of Best Corrected Visual Acuity from Retinal Fundus Images",
+      "publisher": "ARVO",
+      "releaseDate": "2026",
+      "summary": "Quality-aware deep learning for visual acuity prediction from fundus images; highlighted as Hot Topic.",
+      "authors": [
+        "Dharini Raghavan",
+        "et al."
+      ],
+      "category": "AI + Clinical Meeting Abstract"
+    },
+    {
+      "name": "AI-Derived OCTA Retinal Biomarkers Detect Coronary Microvascular Dysfunction in Women",
+      "publisher": "Journal of the American College of Cardiology / ACC",
+      "releaseDate": "2026",
+      "summary": "AI-derived OCTA retinal biomarkers for coronary microvascular dysfunction in women.",
+      "authors": [
+        "Dharini Raghavan",
+        "G Modanwal",
+        "SS Kar",
+        "S Shiromani",
+        "A AlBadri",
+        "N Jain",
+        "et al."
+      ],
+      "category": "AI + Clinical Meeting Abstract"
+    },
+    {
+      "name": "RETONCOMACE: An AI-Informed Cardio-Oncology Retinal Signature for Cardiovascular Risk Prediction in Cancer Patients",
+      "publisher": "Journal of the American College of Cardiology / ACC",
+      "releaseDate": "2026",
+      "summary": "AI-informed cardio-oncology retinal signature for cardiovascular risk prediction in cancer patients.",
+      "authors": [
+        "Dharini Raghavan",
+        "A Singh",
+        "G Modanwal",
+        "A Madabhushi"
+      ],
+      "category": "AI + Clinical Meeting Abstract"
+    },
+    {
+      "name": "Sex-specific Plasma-Immune Architectural Differences in Bone Marrow Predicts Overall Survival in Multiple Myeloma",
+      "publisher": "Cancer Research / AACR",
+      "releaseDate": "2026",
+      "summary": "Spatial pathology biomarkers of sex-specific survival differences in multiple myeloma.",
+      "authors": [
+        "Dharini Raghavan",
+        "A Madabhushi",
+        "A Singh",
+        "T Pathak",
+        "G Corredor",
+        "AK Nooka",
+        "et al."
+      ],
+      "category": "AI + Clinical Meeting Abstract"
+    },
+    {
+      "name": "Quantifying Cognitive Decline and Balance in Older Adults with Mild Cognitive Impairment Using Wearables in Clinical Environments",
+      "publisher": "AMIA",
+      "releaseDate": "2025",
+      "summary": "Wearable sensing and interpretable machine learning for cognitive and functional health assessment in older adults with mild cognitive impairment.",
+      "authors": [
+        "Dharini Raghavan",
+        "et al."
+      ],
+      "category": "AI + Clinical Meeting Abstract"
+    },
+    {
+      "name": "Zero-Shot Pose Estimation and Tracking of Autonomous Mobile Robots using Infrastructure Vision Sensors: An End-to-End Perception Framework",
       "publisher": "ACM ICVGIP",
       "releaseDate": "2024",
       "url": "https://dl.acm.org/doi/full/10.1145/3702250.3702269",
-      "summary": "End-to-end perception framework for zero-shot robot pose estimation from infrastructure cameras."
+      "summary": "End-to-end zero-shot perception framework for robot pose estimation and tracking from infrastructure cameras.",
+      "authors": [
+        "Dharini Raghavan",
+        "Raghu Krishnapuram",
+        "Bharadwaj Amrutur"
+      ],
+      "category": "Peer-Reviewed Conference Paper"
     },
     {
-      "name": "IR-SETNET: Sparsity Aware Ensemble Network for Infrared Imaging Based Drone Localization and Tracking",
-      "publisher": "IEEE ICIP Challenges & Workshops",
+      "name": "IR-SETNET: Sparsity Aware Ensemble Network for Infrared Imaging Based Drone Localization and Tracking in Distorted Surveillance Videos",
+      "publisher": "IEEE ICIP Challenges and Workshops",
       "releaseDate": "2023",
-      "url": "https://ieeexplore.ieee.org/document/10328384"
+      "url": "https://ieeexplore.ieee.org/document/10328384",
+      "summary": "Sparsity-aware ensemble network for infrared drone localization and tracking in distorted surveillance videos.",
+      "authors": [
+        "Dharini Raghavan",
+        "SS Selvi",
+        "VR Rao",
+        "S AV"
+      ],
+      "category": "Peer-Reviewed Conference Paper"
     },
     {
       "name": "SETNET: A Sparse Ensemble Network for Drone Localization and Zero-Shot Drone Tracking in Real-Time Surveillance Videos",
       "publisher": "IEEE ICASSP Workshops",
       "releaseDate": "2023",
-      "url": "https://ieeexplore.ieee.org/abstract/document/10193217"
+      "url": "https://ieeexplore.ieee.org/abstract/document/10193217",
+      "summary": "Sparse ensemble network for drone localization and zero-shot drone tracking in real-time surveillance videos.",
+      "authors": [
+        "Dharini Raghavan",
+        "SS Selvi"
+      ],
+      "category": "Peer-Reviewed Conference Paper"
+    }
+  ],
+  "projects": [
+    {
+      "name": "LLM Reasoning in Medicine",
+      "description": "Investigating whether large language models perform diagnostic reasoning as structured inference or collapse toward prevalence priors under constrained clinical cases. Frames medical LLM evaluation around constraint satisfaction, causal exclusion, evidence integration, and calibration under noisy observations.",
+      "keywords": [
+        "LLM evaluation",
+        "Clinical reasoning",
+        "Constraint satisfaction",
+        "Calibration",
+        "Diagnostic inference"
+      ],
+      "tags": [
+        "ICLR'26 Workshop",
+        "Stanford AIMI Symposium"
+      ]
+    },
+    {
+      "name": "Flow-based Generative Geometry",
+      "description": "Studying generative modeling through the geometry of probability transport. Analyzes learned velocity fields, interpolants, transport paths, curvature, density concentration, likelihood calibration, and representation asymmetries along the generative path.",
+      "keywords": [
+        "Flow matching",
+        "Normalizing flows",
+        "Probability transport",
+        "Generative modeling",
+        "Representation geometry"
+      ]
+    },
+    {
+      "name": "Physics-Consistent Vascular World Models",
+      "description": "Developing vascular world models where generative agents learn plausible, physics-consistent vascular states conditioned on tissue context, disease state, and intervention. Treats vascular morphology as a structured generative object where branching topology, perfusion constraints, remodeling, angiogenesis, and treatment response are modeled as coupled state transitions rather than static image features.",
+      "keywords": [
+        "World models",
+        "Generative state-space models",
+        "Vascular dynamics",
+        "Counterfactual simulation",
+        "Treatment-response modeling"
+      ]
+    },
+    {
+      "name": "Zero-shot Quality Representation Learning for Robust Vision",
+      "description": "Developing EyeQC, a zero-shot method for learning image-quality representations from frozen vision-language embeddings. The framework models acquisition artifacts as latent quality directions induced by semantic prompt contrasts, enabling continuous, multi-axis scoring without supervised quality labels.",
+      "keywords": [
+        "Vision-language models",
+        "Zero-shot learning",
+        "Quality representation learning",
+        "Robust prediction",
+        "Curriculum learning"
+      ],
+      "tags": [
+        "ARVO'26 Hot Topic"
+      ]
+    },
+    {
+      "name": "Oculomics for Systemic Risk Modeling",
+      "description": "Developing statistical-learning and representation-learning frameworks that use ocular structure as a non-invasive projection of systemic disease state. Includes OCTA capillary remodeling for CMD, CORI for cardiovascular risk in cancer patients, perivascular geometry for cardio-renal-metabolic risk, deep fundus representations for pan-cancer risk modeling, and 3D OCT morphology for treatment-response modeling.",
+      "keywords": [
+        "Oculomics",
+        "Retinal imaging",
+        "OCT/OCTA",
+        "Survival modeling",
+        "Cardio-oncology",
+        "Systemic risk modeling"
+      ],
+      "tags": [
+        "AJPC'26",
+        "ACC'26"
+      ]
+    },
+    {
+      "name": "Frequency-Disentangled Generative Modeling for Topology-Preserving Synthesis",
+      "description": "Developed an unpaired cross-modal generation framework that factorizes image translation into low-frequency appearance transport and high-frequency anatomical topology preservation. Applied to fundus-to-OCTA synthesis.",
+      "keywords": [
+        "Image-to-image translation",
+        "Topology preservation",
+        "Medical image synthesis",
+        "Generative modeling",
+        "Fundus-to-OCTA"
+      ]
+    },
+    {
+      "name": "Spatial Risk-Field Learning for Surgical Margin Assessment",
+      "description": "Developing a multitask deep learning framework that treats surgical margin assessment in breast cancer resections as structured prediction over tissue geometry. The model learns coupled tumor-probability fields, margin-distance representations, morphology embeddings, and uncertainty maps.",
+      "keywords": [
+        "Computational pathology",
+        "Whole-slide imaging",
+        "Multitask learning",
+        "Spatial risk fields",
+        "Uncertainty maps"
+      ],
+      "tags": [
+        "Collaboration with ARPA-H"
+      ]
+    },
+    {
+      "name": "Generative State-Space Modeling of 4D Cardiac Dynamics",
+      "description": "Exploring foundation-model methods for cine cardiac MRI that learn compact latent trajectories of cardiac motion, morphology, and remodeling from spatiotemporal image sequences.",
+      "keywords": [
+        "Cine MRI",
+        "4D cardiac dynamics",
+        "State-space models",
+        "Temporal attention",
+        "Counterfactual trajectory modeling"
+      ]
+    },
+    {
+      "name": "Spatial Pathology Biomarkers in Multiple Myeloma",
+      "description": "Investigating plasma-cell and immune-cell organization from bone marrow biopsies using deep learning and spatial tissue modeling. Extracts neighborhood geometry, local composition, immune-plasma interaction patterns, and architecture-level phenotypes associated with sex-specific survival differences.",
+      "keywords": [
+        "Computational pathology",
+        "Multiple myeloma",
+        "Spatial biomarkers",
+        "Survival modeling",
+        "Tissue architecture"
+      ],
+      "tags": [
+        "AACR'26"
+      ]
+    },
+    {
+      "name": "Generalist CT Foundation Models",
+      "description": "Developed target-adaptive CT diagnosis systems for the CVPR Foundation Models for General CT Image Diagnosis Challenge. Frames general CT diagnosis as representation selection under heterogeneous evidence regimes.",
+      "keywords": [
+        "CT foundation models",
+        "Representation routing",
+        "Calibrated linear probes",
+        "OOD validation",
+        "Medical imaging challenge"
+      ],
+      "tags": [
+        "CVPR'26 Challenge",
+        "Ranked 3rd in validation phase"
+      ]
+    },
+    {
+      "name": "3D OCT Biomarker Detection",
+      "description": "Developed multi-branch deep learning models for volumetric OCT biomarker classification, combining spatial and spectral feature streams, late fusion, and gradient-based interpretability; achieved >98.5% macro F1-score.",
+      "url": "https://github.com/rdharini2001/ECE_8803_Final_Project",
+      "keywords": [
+        "OCT",
+        "Volumetric imaging",
+        "Multi-branch networks",
+        "Interpretability",
+        "Biomarker classification"
+      ]
+    },
+    {
+      "name": "Wearable Bioimpedance Sensing for Tendon Health Monitoring",
+      "description": "Engineered real-time bioimpedance and IMU sensing for tendon strain and tissue-state discrimination. Modeled impedance variation as a physiologically constrained signal linked to tendon deformation and injury state.",
+      "keywords": [
+        "Bioimpedance",
+        "IMU",
+        "Wearable sensing",
+        "Tendon health",
+        "Signal processing"
+      ]
+    },
+    {
+      "name": "Hybrid Bi-LSTM--Transformer for Preterm Birth Prediction",
+      "description": "Developed recurrent-attention models for spontaneous preterm-labor prediction from multi-channel electrohysterogram signals, combining temporal gating, self-attention, and neural compression; achieved >96% accuracy and >3x inference speedup.",
+      "keywords": [
+        "Bi-LSTM",
+        "Transformer",
+        "Electrohysterogram",
+        "Preterm birth",
+        "Model compression"
+      ],
+      "tags": [
+        "Biomedical Engineering: Applications, Basis and Communications'23"
+      ]
+    },
+    {
+      "name": "Multimodal Neuroimaging for Alzheimer's Disease",
+      "description": "Developed machine-learning pipelines for Alzheimer's disease classification using multimodal MRI-PET fusion and neuroimaging feature representations.",
+      "keywords": [
+        "Alzheimer's disease",
+        "MRI-PET fusion",
+        "Neuroimaging",
+        "Extreme learning machines",
+        "Multimodal ML"
+      ],
+      "tags": [
+        "IEEE I4C'22",
+        "Journal of Machine Learning for Modeling and Computing'23"
+      ]
+    },
+    {
+      "name": "Sparse Ensemble Networks for UAV Detection and Tracking",
+      "description": "Designed sparse ensembles for miniaturized UAV detection, drone-bird discrimination, and RGB/IR localization under low illumination, clutter, and distortion; achieved >5x inference speedup and >25% relative localization improvement.",
+      "keywords": [
+        "UAV detection",
+        "Drone tracking",
+        "Sparse ensembles",
+        "Infrared imaging",
+        "Real-time perception"
+      ],
+      "tags": [
+        "IEEE MysuruCon'22",
+        "IEEE ICASSP'23",
+        "IEEE ICIP Challenge'23",
+        "IEEE CONNECT'26 accepted"
+      ]
+    },
+    {
+      "name": "NIR Spectroscopy-Based Non-Invasive Glucometer",
+      "description": "Designed a near-infrared sensing and neural calibration system for non-invasive glucose estimation using particle-swarm optimization and Clarke Error Grid validation.",
+      "keywords": [
+        "NIR spectroscopy",
+        "Glucose monitoring",
+        "PSO-ANN",
+        "Clarke Error Grid",
+        "Biomedical sensing"
+      ],
+      "tags": [
+        "TechRxiv'23"
+      ]
+    },
+    {
+      "name": "Vision-Guided Robotic Manipulation for Sericulture",
+      "description": "Implemented instance segmentation and 6-DoF inverse-kinematics control for autonomous sorting of diseased versus healthy silkworms, integrating mask prediction, grasp localization, and class-conditioned manipulation.",
+      "keywords": [
+        "Robotic manipulation",
+        "Instance segmentation",
+        "Inverse kinematics",
+        "Agricultural robotics",
+        "Sericulture"
+      ],
+      "tags": [
+        "IEEE ICDCECE'22",
+        "Patent published",
+        "Applied Research in Engineering Sciences'26"
+      ]
+    },
+    {
+      "name": "Lightweight Cardiac Sound Classification and Wearable Monitoring",
+      "description": "Developed lightweight deep ensemble models with attention mechanisms for cardiac sound classification, later extending the system toward edge-to-cloud vital-sign monitoring, PPG-derived HRV extraction, oscillometric blood-pressure estimation, and telemedicine integration.",
+      "keywords": [
+        "Cardiac sound classification",
+        "Attention mechanisms",
+        "Edge-to-cloud monitoring",
+        "PPG",
+        "Wearable health"
+      ],
+      "tags": [
+        "Systems Science and Control Engineering'24"
+      ]
+    },
+    {
+      "name": "Wearable Textile Antenna Performance Prediction",
+      "description": "Developed ant-colony-optimized support vector regression models for performance prediction of wearable textile antennas.",
+      "keywords": [
+        "Wearable antennas",
+        "Support vector regression",
+        "Ant colony optimization",
+        "Performance prediction"
+      ],
+      "tags": [
+        "IEEE GCITC'23"
+      ]
+    },
+    {
+      "name": "3D Medical Image Deconvolution",
+      "description": "Designed lightweight residual CNNs for non-blind 3D deconvolution of clinical MRI scans, improving PSNR by more than 2.5 dB over Richardson-Lucy baselines with more than 10x faster inference. Extended the restoration framework to photoacoustic tomography for 3D tumor localization.",
+      "keywords": [
+        "3D deconvolution",
+        "MRI",
+        "Photoacoustic tomography",
+        "Residual CNNs",
+        "Medical image restoration"
+      ]
+    },
+    {
+      "name": "Geospatial ML for Hazard Prediction",
+      "description": "Built ensemble-learning pipelines combining geospatial covariates, geological databases, and GeoTIFF imagery for landslide susceptibility mapping and spatial risk visualization.",
+      "keywords": [
+        "Geospatial ML",
+        "Landslide susceptibility",
+        "GeoTIFF",
+        "Ensemble learning",
+        "Risk visualization"
+      ]
     }
   ],
   "awards": [
     {
+      "title": "CHIL Doctoral Symposium Selection and Travel Support",
+      "date": "2026",
+      "awarder": "Conference on Health, Inference, and Learning",
+      "summary": "Competitively selected for the Doctoral Symposium and awarded travel support to present doctoral research at CHIL 2026, Seattle, WA."
+    },
+    {
       "title": "Winner, Assistive Technology Track + Google Health Prize + Niraj Bhatia Foundation Prize",
       "date": "2025",
       "awarder": "MIT Hacking Medicine Grand Hack",
-      "summary": "Most Impactful Solution."
+      "summary": "Special recognition for Most Impactful Solution."
     },
     {
-      "title": "PROGRESS Travel Grant ($1,000)",
+      "title": "PROGRESS Travel Grant",
       "date": "2023",
       "awarder": "IEEE Signal Processing Society",
-      "summary": "Travel support for IEEE ICASSP 2023, Rhodes, Greece."
+      "summary": "$1,000 travel support for IEEE ICASSP 2023, Rhodes, Greece."
     },
     {
       "title": "Best Project Award",
       "date": "2023",
-      "awarder": "Karnataka State Council for Science & Technology, DST, Government of India",
-      "summary": "Best undergraduate capstone project."
+      "awarder": "Karnataka State Council for Science & Technology and Department of Science & Technology, Government of India",
+      "summary": "Awarded for undergraduate capstone project."
     },
     {
       "title": "Best Achiever Award",
       "date": "2023",
       "awarder": "Ramaiah Institute of Technology",
-      "summary": "Distinguished performance in academics, co-curricular, and extra-curricular activities (Class of 2023)."
+      "summary": "Distinguished performance in academics, co-curricular, and extra-curricular activities, Class of 2023."
     },
     {
-      "title": "Silver Medal & TATA Consulting Engineers Award",
+      "title": "Silver Medal and TATA Consulting Engineers Award",
       "date": "2023",
       "awarder": "Ramaiah Institute of Technology",
       "summary": "For academic excellence during undergraduate studies."
     },
     {
-      "title": "ICASSP Travel Grant ($1,000)",
+      "title": "ICASSP Travel Grant",
       "date": "2022",
       "awarder": "IEEE Signal Processing Society",
-      "summary": "Travel support for IEEE ICASSP 2022, Singapore."
+      "summary": "$1,000 travel support for IEEE ICASSP 2022, Singapore."
     },
     {
       "title": "MITACS Globalink Research Internship",
       "date": "2022",
       "awarder": "MITACS",
-      "summary": "Fully funded research internship at the University of New Brunswick, Canada."
+      "summary": "Selected for fully funded research internship at the University of New Brunswick, Canada."
     },
     {
       "title": "Winner, HMT SURGE Hackathon",
       "date": "2022",
-      "awarder": "IISc & Ministry of Heavy Industries, Government of India"
+      "awarder": "IISc and Ministry of Heavy Industries, Government of India"
     },
     {
       "title": "Winner, IEEE Eureka",
       "date": "2021",
-      "awarder": "IEEE Pune Section & IEEE Education Society",
+      "awarder": "IEEE Pune Section and IEEE Education Society",
       "summary": "Top 3 nationally among 600+ teams."
     },
     {
-      "title": "Avery Dennison Spirit of Invention Scholarship ($1,300)",
+      "title": "Avery Dennison Spirit of Invention Scholarship",
       "date": "2021",
       "awarder": "Avery Dennison",
-      "summary": "Awarded to only 10 students across India."
+      "summary": "$1,300 award; awarded to only 10 students across India."
     },
     {
       "title": "Summer Research Fellowship",
       "date": "2021",
       "awarder": "Indian Academy of Sciences",
       "summary": "Fully funded research internship at the Indian Institute of Science."
+    },
+    {
+      "title": "Competition Placement, SIGPRO",
+      "date": "2022",
+      "awarder": "IEEE Signal Processing Society",
+      "summary": "2nd Place."
+    },
+    {
+      "title": "Competition Placement, Sovereign Nature Initiative Global Hackathon",
+      "date": "2022",
+      "awarder": "Sovereign Nature Initiative",
+      "summary": "2nd Place."
+    },
+    {
+      "title": "Invitation to AI by HER Event",
+      "date": "",
+      "awarder": "Consulate General of India, Atlanta"
     }
   ],
   "skills": [
@@ -249,7 +815,8 @@
       "name": "Deep Learning & Foundation Models",
       "keywords": [
         "Representation learning",
-        "Self-supervised & contrastive learning",
+        "Self-supervised learning",
+        "Contrastive learning",
         "Vision-language models",
         "LLM evaluation",
         "Diffusion models",
@@ -262,11 +829,12 @@
       ]
     },
     {
-      "name": "Biomedical AI & Survival Modeling",
+      "name": "Biomedical AI & Statistical Learning",
       "keywords": [
         "Medical foundation models",
         "Retinal imaging",
-        "OCT / OCTA",
+        "OCT",
+        "OCTA",
         "Whole-slide pathology",
         "CT",
         "Cine MRI",
@@ -274,7 +842,10 @@
         "Spatial statistics",
         "Cox models",
         "Kaplan-Meier analysis",
-        "Calibration"
+        "Longitudinal modeling",
+        "Bootstrap uncertainty",
+        "Calibration",
+        "External validation"
       ]
     },
     {
@@ -288,6 +859,7 @@
         "SLAM",
         "3D Gaussian splatting",
         "Differentiable rendering",
+        "Multi-camera perception",
         "Edge AI"
       ]
     },
@@ -296,20 +868,25 @@
       "keywords": [
         "Python",
         "PyTorch",
-        "TensorFlow / Keras",
-        "MONAI",
+        "TensorFlow",
+        "Keras",
         "Hugging Face",
+        "MONAI",
         "scikit-learn",
         "OpenCV",
+        "NumPy",
+        "pandas",
+        "SciPy",
         "CUDA",
         "Linux",
         "Git",
-        "Docker / Apptainer",
+        "Docker",
+        "Apptainer",
         "HPC clusters"
       ]
     },
     {
-      "name": "Sensing & Hardware",
+      "name": "Sensing & Hardware Systems",
       "keywords": [
         "IMU",
         "PPG",
@@ -323,51 +900,38 @@
       ]
     }
   ],
-  "projects": [
+  "patents": [
     {
-      "name": "Generative state-space modeling of 4D cardiac dynamics",
-      "description": "Foundation-model methods for cine cardiac MRI that learn compact latent trajectories of cardiac motion, morphology, and remodeling from spatiotemporal sequences."
+      "name": "A System and Method for Autonomous Sorting of Healthy and Diseased Silkworm",
+      "issuer": "India Patent Office",
+      "number": "India Patent Application No. 202341026012",
+      "date": "2023",
+      "summary": "Autonomous vision-enabled system for sorting healthy and diseased silkworms.",
+      "authors": [
+        "Dharini Raghavan",
+        "et al."
+      ]
+    }
+  ],
+  "talks": [
+    {
+      "name": "Quality-Aware Deep Learning Improves Prediction of Best Corrected Visual Acuity from Retinal Fundus Images",
+      "event": "EyeConnect Symposium, Atlanta Vision Research Community",
+      "type": "Invited Lightning Talk",
+      "date": ""
     },
     {
-      "name": "Spatial pathology biomarkers in multiple myeloma",
-      "description": "Plasma-cell and immune-cell organization from bone marrow biopsies for sex-specific survival modeling (AACR'26)."
+      "name": "Neural compression for edge perception",
+      "event": "Qualcomm Developer Symposium",
+      "type": "Research Presentation",
+      "date": ""
     },
     {
-      "name": "3D OCT biomarker detection",
-      "description": "Multi-branch deep learning for volumetric OCT biomarker classification with late fusion and gradient-based interpretability; >98.5% macro F1.",
-      "url": "https://github.com/rdharini2001/ECE_8803_Final_Project"
-    },
-    {
-      "name": "Wearable bioimpedance sensing for tendon health",
-      "description": "Real-time bioimpedance + IMU sensing for tendon strain and tissue-state discrimination."
-    },
-    {
-      "name": "Hybrid Bi-LSTM--Transformer for preterm-birth prediction",
-      "description": "Recurrent-attention model from electrohysterogram signals; >96% accuracy, >3× inference speedup. (BMEAB&C'23)"
-    },
-    {
-      "name": "Multimodal neuroimaging for Alzheimer's disease",
-      "description": "ML pipelines for AD classification using multimodal MRI–PET fusion. (IEEE I4C'22; JMLMC'23)"
-    },
-    {
-      "name": "Sparse ensemble networks for UAV detection and tracking",
-      "description": "Miniaturized UAV detection, drone-bird discrimination, RGB/IR localization under low illumination and clutter; >5× speedup, >25% relative localization improvement. (IEEE MysuruCon'22; ICASSP'23; ICIP'23; CONNECT'26)"
-    },
-    {
-      "name": "NIR spectroscopy-based non-invasive glucometer",
-      "description": "NIR sensing + neural calibration with PSO and Clarke Error Grid validation. (TechRxiv'23)"
-    },
-    {
-      "name": "Vision-guided robotic manipulation for sericulture",
-      "description": "Instance segmentation + 6-DoF inverse-kinematics for sorting diseased vs. healthy silkworms (Patent published; IEEE ICDCECE'22; AReS'26)."
-    },
-    {
-      "name": "Lightweight cardiac sound classification",
-      "description": "Deep ensemble with attention for cardiac auscultation; extended to edge-to-cloud wearable for vital-sign monitoring. (SSCE'24)"
-    },
-    {
-      "name": "Wearable textile antenna performance prediction",
-      "description": "ACO-optimized SVR for wearable textile antenna performance. (IEEE GCITC'23)"
+      "name": "Neural Network Compression for Aerial Target Tracking",
+      "event": "IEEE ICASSP",
+      "type": "Poster",
+      "date": "2025",
+      "location": "Hyderabad, India"
     }
   ],
   "volunteer": [
@@ -395,20 +959,163 @@
       "url": "https://icip2023irdrone.my.canva.site"
     },
     {
-      "organization": "Tech Talks (AI Journal Club)",
-      "position": "Founder",
-      "summary": "Launched and lead an AI journal club for critical discussion of recent papers in deep learning, computer vision, medical AI, foundation models, and generative modeling."
-    },
-    {
       "organization": "Smart India Hackathon 2023",
       "position": "Hackathon Mentor & Judge",
       "summary": "Mentored 40+ teams."
+    },
+    {
+      "organization": "IEEE SPS",
+      "position": "K-12 STEM Outreach Volunteer",
+      "summary": "Led hands-on robotics and signal-processing workshops for underrepresented students."
+    },
+    {
+      "organization": "Caregiver Saathi Foundation",
+      "position": "Community Volunteer",
+      "summary": "COVID-19 response volunteering."
+    }
+  ],
+  "professionalActivities": [
+    {
+      "organization": "Tech Talks",
+      "position": "Founder",
+      "summary": "Launched and lead an AI journal club for critical discussion of recent papers in deep learning, computer vision, medical AI, foundation models, and generative modeling; organized reading sessions to translate frontier methods into research ideas and collaborations."
+    },
+    {
+      "organization": "IEEE VIP Cup, ICIP 2025",
+      "position": "Organizing Committee",
+      "summary": "Organizing committee member for the Infrared-Visual Fusion for Drone Detection VIP Cup.",
+      "url": "https://icip2023irdrone.my.canva.site/icip-2025-vip"
+    },
+    {
+      "organization": "IEEE ICIP 2023",
+      "position": "Grand Challenge Organizer",
+      "summary": "Organizer for IR Imaging-Based Drone Tracking Grand Challenge.",
+      "url": "https://icip2023irdrone.my.canva.site"
+    },
+    {
+      "organization": "IEEE ICRA 2025",
+      "position": "Student Volunteer",
+      "location": "Atlanta, GA"
+    }
+  ],
+  "peerReview": [
+    {
+      "venue": "NeurIPS",
+      "year": "2026"
+    },
+    {
+      "venue": "MICCAI",
+      "year": "2026"
+    },
+    {
+      "venue": "IEEE ICIP",
+      "year": "2026"
+    },
+    {
+      "venue": "IEEE ICIP",
+      "year": "2025"
+    },
+    {
+      "venue": "IEEE ICIP",
+      "year": "2024"
+    },
+    {
+      "venue": "IEEE ICASSP Workshops",
+      "year": "2023"
+    },
+    {
+      "venue": "Informatics in Medicine Unlocked"
+    },
+    {
+      "venue": "Reliability Engineering & System Safety"
+    },
+    {
+      "venue": "Control and Cybernetics"
+    }
+  ],
+  "mentorship": [
+    {
+      "role": "Research Mentor",
+      "summary": "Advising undergraduate researchers at Georgia Tech and Emory on machine learning for medical imaging projects."
+    },
+    {
+      "role": "Current mentee",
+      "name": "Sanjana Shresta",
+      "affiliation": "Emory"
+    },
+    {
+      "role": "Current mentee",
+      "name": "Landon Minkow",
+      "affiliation": "Emory Mathematics"
+    },
+    {
+      "role": "Current mentee",
+      "name": "Viplav Patturi",
+      "affiliation": "Georgia Tech BME"
+    },
+    {
+      "role": "Current mentee",
+      "name": "Advay Balakrishnan",
+      "affiliation": "Georgia Tech CS"
+    }
+  ],
+  "leadership": [
+    {
+      "role": "Secretary",
+      "organization": "IEEE MTT Society",
+      "startDate": "2022",
+      "endDate": "2023"
+    },
+    {
+      "role": "Mission Manager & Subsystem Lead",
+      "organization": "Student Satellite Team STARDUST RIT",
+      "startDate": "2020",
+      "endDate": "2021"
+    },
+    {
+      "role": "Executive Member",
+      "organization": "IEEE Student Branch",
+      "startDate": "2019",
+      "endDate": "2021"
+    },
+    {
+      "role": "Lead Editor",
+      "organization": "Annual Technical Newsletter, Department of ECE, Ramaiah Institute of Technology"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "EFSET English Proficiency",
+      "issuer": "EFSET",
+      "summary": "C2 Level"
+    },
+    {
+      "name": "Patent Search & Analysis",
+      "issuer": "NPTEL"
+    },
+    {
+      "name": "Microsoft Technology Associate",
+      "issuer": "Microsoft"
+    }
+  ],
+  "courses": [
+    {
+      "name": "Machine Learning",
+      "institution": "Stanford University / Coursera"
+    },
+    {
+      "name": "Mathematics for Machine Learning: Linear Algebra",
+      "institution": "Imperial College London / Coursera"
+    },
+    {
+      "name": "Python Programming",
+      "institution": "University of Michigan / Coursera"
     }
   ],
   "languages": [
     {
       "language": "English",
-      "fluency": "Native / C2 (EFSET Certified)"
+      "fluency": "C2 / EFSET Certified"
     },
     {
       "language": "Tamil",
@@ -424,12 +1131,17 @@
       "name": "Research Interests",
       "keywords": [
         "Representation learning",
-        "Generative modeling & flow matching",
+        "Generative modeling",
+        "Flow matching",
         "Medical AI",
         "Foundation models for clinical imaging",
         "Oculomics",
+        "Computational pathology",
+        "Vision-language models",
+        "Vascular world models",
+        "Cardiac state-space modeling",
         "Embodied perception",
-        "Uncertainty & calibration"
+        "Uncertainty and calibration"
       ]
     }
   ],
