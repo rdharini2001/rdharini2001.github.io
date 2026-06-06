@@ -2,7 +2,7 @@
 layout: page
 title: Flow-based Generative Geometry
 description: Generative modeling through the geometry of probability transport
-img: assets/img/3.jpg
+img: assets/img/path_geometry.png
 importance: 3
 category: research
 authors: "<strong>Dharini Raghavan</strong>, Anant Madabhushi"
