@@ -2,7 +2,7 @@
 layout: page
 title: Oculomics for Systemic Risk Modeling
 description: Ocular structure as a non-invasive projection of systemic disease state
-img: assets/img/4.jpg
+img: assets/img/systemic.png
 importance: 4
 category: research
 authors: "<strong>Dharini Raghavan</strong>, Anant Madabhushi"
