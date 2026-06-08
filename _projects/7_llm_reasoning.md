@@ -2,7 +2,7 @@
 layout: page
 title: LLM Reasoning in Medicine
 description: Do LLMs reason, or collapse to prevalence priors?
-img: assets/img/7.jpg
+img: assets/img/llm_iclr.png
 importance: 7
 category: research
 authors: "<strong>Dharini Raghavan</strong>"
