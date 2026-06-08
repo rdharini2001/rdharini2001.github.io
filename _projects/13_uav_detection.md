@@ -2,7 +2,7 @@
 layout: page
 title: Sparse Ensemble Networks for UAV Detection
 description: Drone-bird discrimination and RGB/IR localization
-img: assets/img/13.jpg
+img: assets/img/drone.png
 importance: 13
 category: research
 authors: "<strong>Dharini Raghavan</strong> et al."
