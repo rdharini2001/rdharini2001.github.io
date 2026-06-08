@@ -2,7 +2,7 @@
 layout: page
 title: Vision-Guided Robotic Manipulation for Sericulture
 description: Instance segmentation + 6-DoF IK for autonomous silkworm sorting
-img: assets/img/15.jpg
+img: assets/img/seri.png
 importance: 15
 category: research
 authors: "<strong>Dharini Raghavan</strong> et al."
