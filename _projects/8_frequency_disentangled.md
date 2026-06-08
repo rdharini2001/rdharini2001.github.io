@@ -2,7 +2,7 @@
 layout: page
 title: Frequency-Disentangled Generative Modeling
 description: Topology-preserving cross-modal synthesis (fundus -> OCTA)
-img: assets/img/8.jpg
+img: assets/img/sfds.png
 importance: 8
 category: research
 authors: "<strong>Dharini Raghavan</strong>, Anant Madabhushi"
