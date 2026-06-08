@@ -2,7 +2,7 @@
 layout: page
 title: Generative State-Space Modeling of 4D Cardiac Dynamics
 description: Foundation-model methods for cine cardiac MRI
-img: assets/img/10.jpg
+img: assets/img/cardiac.png
 importance: 10
 category: research
 authors: "<strong>Dharini Raghavan</strong>"
