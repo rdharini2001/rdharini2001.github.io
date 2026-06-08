@@ -2,7 +2,7 @@
 layout: page
 title: 3D OCT Biomarker Detection
 description: Multi-branch deep learning for volumetric OCT
-img: assets/img/12.jpg
+img: assets/img/oct.png
 importance: 12
 category: course-projects
 authors: "<strong>Dharini Raghavan</strong>"

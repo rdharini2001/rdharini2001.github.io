@@ -2,7 +2,7 @@
 layout: page
 title: Hybrid Bi-LSTM-Transformer for Preterm-Birth Prediction
 description: Temporal gating and self-attention for electrohysterogram signals
-img: assets/img/19.jpg
+img: assets/img/ehg.png
 importance: 19
 category: research
 authors: "<strong>Dharini Raghavan</strong>"
