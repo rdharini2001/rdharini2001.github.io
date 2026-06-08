@@ -2,7 +2,7 @@
 layout: page
 title: Wearable AI for Cognitive Health
 description: Multimodal sensing and interpretable ML for mild cognitive impairment
-img: assets/img/6.jpg
+img: assets/img/plos_wearable.png
 importance: 6
 category: research
 authors: "<strong>Dharini Raghavan</strong>, Hyeokhyen Kwon"
