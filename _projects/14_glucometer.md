@@ -2,7 +2,7 @@
 layout: page
 title: NIR Spectroscopy Non-Invasive Glucometer
 description: NIR sensing with neural calibration for glucose estimation
-img: assets/img/14.jpg
+img: assets/img/glucometer.png
 importance: 14
 category: research
 authors: "<strong>Dharini Raghavan</strong>"
