@@ -2,7 +2,7 @@
 layout: page
 title: Multimodal Neuroimaging for Alzheimer's Disease
 description: MRI-PET fusion for AD classification
-img: assets/img/18.jpg
+img: assets/img/pet.png
 importance: 18
 category: research
 authors: "<strong>Dharini Raghavan</strong>"
