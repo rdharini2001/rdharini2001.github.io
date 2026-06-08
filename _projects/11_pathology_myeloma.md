@@ -2,7 +2,7 @@
 layout: page
 title: Spatial Pathology Biomarkers in Multiple Myeloma
 description: Plasma-immune architecture and sex-specific survival differences
-img: assets/img/11.jpg
+img: assets/img/MM.png
 importance: 11
 category: research
 authors: "<strong>Dharini Raghavan</strong> et al."
