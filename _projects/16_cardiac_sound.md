@@ -2,7 +2,7 @@
 layout: page
 title: Lightweight Cardiac Sound Classification
 description: Attention-based deep ensemble for auscultation-based screening
-img: assets/img/16.jpg
+img: assets/img/light_cardiac.png
 importance: 16
 category: research
 authors: "<strong>Dharini Raghavan</strong>"
