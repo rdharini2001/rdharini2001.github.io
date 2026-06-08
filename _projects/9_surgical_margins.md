@@ -2,7 +2,7 @@
 layout: page
 title: Spatial Risk-Field Learning for Surgical Margins
 description: Multitask deep learning for breast-cancer margin assessment
-img: assets/img/9.jpg
+img: assets/img/margin.png
 importance: 9
 category: research
 authors: "<strong>Dharini Raghavan</strong>, Anant Madabhushi"
