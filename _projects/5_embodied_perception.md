@@ -2,7 +2,7 @@
 layout: page
 title: Embodied Perception & Robot Localization
 description: Zero-shot localization, SLAM, and edge AI for autonomous robots
-img: assets/img/5.jpg
+img: assets/img/acm_zero.png
 importance: 5
 category: research
 authors: "<strong>Dharini Raghavan</strong>, Raghu Krishnapuram, Bharadwaj Amrutur"
