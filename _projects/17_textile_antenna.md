@@ -2,7 +2,7 @@
 layout: page
 title: Wearable Textile Antenna Performance Prediction
 description: ACO-optimized SVR for wearable textile antenna design
-img: assets/img/17.jpg
+img: assets/img/antenna.png
 importance: 17
 category: research
 authors: "<strong>Dharini Raghavan</strong>"
